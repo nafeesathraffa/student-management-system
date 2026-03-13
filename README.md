@@ -36,7 +36,7 @@ student-management-system
 ![Form](screenshots/form.png)
 
 ### Student Records
-![Table](screenshots/studentsdetails.png)
+![Table](screenshots/students details.png)
 
 ## How to Run
 
