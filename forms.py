@@ -27,7 +27,7 @@ class AddStudent(FlaskForm):
                              validators=[DataRequired()])
   currentSem = SelectField('Current Semester',
                        choices=[
-                         (0, '1'),
+                         (0, '0'),
                          (1, '1'),
                          (2, '2'),
                          (3, '3'),
@@ -39,5 +39,6 @@ class AddStudent(FlaskForm):
                        ],
                        validators=[DataRequired()])
   submit = SubmitField('Submit')
+
   
   
